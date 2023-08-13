@@ -1,0 +1,97 @@
+.brands,
+.content2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.content2 {
+  width: 69.81rem;
+  height: 31.02rem;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.56rem;
+}
+.brands {
+  position: absolute;
+  top: 128.06rem;
+  left: 0;
+  background-color: var(--main-colors-white);
+  width: 90rem;
+  height: 44.44rem;
+  flex-direction: column;
+  padding: var(--padding-0) 10.01rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.manageTradeCryptosWithDeParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+
+  .manageTrade,
+.withOver3 {
+  position: relative;
+  display: inline-block;
+}
+.manageTrade {
+  letter-spacing: -0.6px;
+  line-height: 3.5rem;
+  width: 33.36rem;
+}
+.withOver3 {
+  font-size: var(--text-18px-regular-size);
+  line-height: 1.88rem;
+  font-family: var(--text-26px-regular);
+  color: var(--neutral-900);
+  width: 29.59rem;
+}
+
+.buttonsoliddefaultlargelig1 {
+    position: relative;
+    width: 14.13rem;
+    height: 4rem;
+    text-align: center;
+    font-size: var(--text-22px-semibold-size);
+    color: var(--main-colors-white);
+  }
+
+  .borderRadiuslightsolidpill {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .borderRadius {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-74xl);
+    background-color: var(--color-royalblue-100);
+  }
+
+  .getStarted3 {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 78px);
+  }
+
+  .logosIcon {
+    position: relative;
+    width: 28.91rem;
+    height: 33.19rem;
+  }
+  
+

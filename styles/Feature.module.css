@@ -1,0 +1,896 @@
+
+.feature,
+.featureWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.feature {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--transparent);
+  padding: var(--padding-101xl) var(--padding-81xl);
+  align-items: center;
+  justify-content: center;
+}
+.featureWrapper {
+  position: absolute;
+  top: 79.13rem;
+  left: 3.88rem;
+  border-radius: var(--br-11xl);
+  width: 82.25rem;
+  height: 45.19rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(/frame-39901@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.88rem;
+  }
+
+  .faq,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.faq {
+  width: 32.38rem;
+  font-size: var(--text-22px-semibold-size);
+  font-family: var(--text-26px-regular);
+}
+.right {
+  gap: 1.06rem;
+}
+
+
+.tagtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .createComplexWorkf {
+    position: relative;
+    letter-spacing: -0.6px;
+    line-height: 3.5rem;
+    display: inline-block;
+    width: 32.38rem;
+  }
+
+
+  .piecesdesktopitemOpendark {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+
+  .item,
+.moreThanJust {
+  align-self: stretch;
+  position: relative;
+}
+.item {
+  height: 3.19rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.moreThanJust {
+  font-size: var(--text-18px-regular-size);
+  line-height: 1.88rem;
+  color: var(--neutral-900);
+}
+
+.piecesdesktopitemCloseddar,
+.piecesdesktopitemCloseddar3 {
+  align-self: stretch;
+  position: relative;
+  height: 5.19rem;
+}
+.piecesdesktopitemCloseddar3 {
+  display: none;
+  color: var(--main-colors-white);
+}
+
+
+.divider4,
+.iconadd {
+  position: absolute;
+  right: 0;
+}
+.divider4 {
+  height: 1.2%;
+  width: 100%;
+  top: 98.8%;
+  bottom: 0;
+  left: 0;
+}
+.iconadd {
+  top: 2.19rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.howDoesNayzak1 {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    line-height: 2.13rem;
+    font-weight: 600;
+  }
+
+  .illustration {
+    flex: 1;
+    position: relative;
+    height: 30rem;
+    font-size: var(--body-medium-regular-size);
+    font-family: var(--body-xsmall-regular);
+  }
+
+  
+  .frame1 {
+    position: absolute;
+    top: 0;
+    left: 2.25rem;
+    border-radius: var(--br-base);
+    background: radial-gradient(50% 50%at 50% 50%, rgba(255, 255, 255, 0), #fff),
+      #d1ddfa;
+    width: 28rem;
+    height: 30rem;
+    overflow: hidden;
+  }
+
+
+
+.divider3 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--solid-02-black-700);
+  }
+  .divider2,
+  .divider3,
+  .iconminus {
+    position: absolute;
+    right: 0;
+  }
+  .divider2 {
+    width: 100%;
+    top: calc(50% + 24.5px);
+    left: 0;
+    height: 0.06rem;
+  }
+  .iconminus {
+    top: calc(50% - 22.5px);
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  
+  .howDoesNayzak {
+    position: absolute;
+    top: calc(50% - 25.5px);
+    left: 0;
+    line-height: 2.13rem;
+    font-weight: 600;
+  }
+
+  .frameChild {
+    position: absolute;
+    top: 3.75rem;
+    left: 0;
+    width: 16.34rem;
+    height: 21.19rem;
+  }
+
+  .frameChild1 {
+    position: relative;
+    width: 4.78rem;
+    height: 1.6rem;
+  }
+
+  .frameChild3,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleDiv {
+  border-radius: var(--br-base);
+  background-color: var(--main-colors-black);
+  width: 16rem;
+  height: 10.25rem;
+}
+.frameChild3 {
+  width: 12rem;
+  height: 8.75rem;
+  opacity: 0.2;
+}
+
+.frame2,
+.frameChild4 {
+  position: absolute;
+  overflow: hidden;
+}
+.frameChild4 {
+  height: 60.06%;
+  width: 29.17%;
+  top: 22.5%;
+  right: 58.33%;
+  bottom: 17.44%;
+  left: 12.5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.frame2 {
+  top: 13.25rem;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 12rem;
+  height: 8.75rem;
+  font-size: var(--body-xsmall-regular-size);
+  color: var(--main-colors-white);
+}
+
+.frameItem,
+.parent {
+  position: absolute;
+  border-radius: var(--br-xs);
+  background-color: var(--main-colors-white);
+  height: 4rem;
+}
+.parent {
+  top: 3rem;
+  left: 2.5rem;
+  width: 23rem;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  width: 25.44rem;
+}
+
+.parent2 {
+    position: absolute;
+    top: 13rem;
+    left: 11.5rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    box-shadow: 0 0 10px rgba(82, 53, 232, 0.2);
+    width: 25.44rem;
+    height: 4rem;
+  }
+
+  
+.div {
+    position: absolute;
+    top: 1.38rem;
+    left: 16.88rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+
+  .div1 {
+    position: absolute;
+    top: 1.31rem;
+    left: 16.75rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+
+  
+.logoBitcoinIcon {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+  }
+  .bitcoin,
+  .btc {
+    position: absolute;
+    top: 1.19rem;
+    left: 7.38rem;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    font-weight: 500;
+    color: var(--neutral-grey-6);
+  }
+  .btc {
+    left: 4.5rem;
+    color: var(--neutral-400);
+  }
+
+  
+.rectangleParent {
+    position: absolute;
+    top: 13rem;
+    left: 2.5rem;
+    width: 25.44rem;
+    height: 4rem;
+    display: none;
+    color: var(--neutral-dark-100);
+  }
+
+
+  
+
+
+
+.frameInner {
+    position: absolute;
+    width: 12.47%;
+    top: 1.15rem;
+    right: 22.76%;
+    left: 64.77%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 1.6rem;
+  }
+  .frameIcon {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+
+  
+.group {
+    position: absolute;
+    top: 1.31rem;
+    left: 13.81rem;
+    width: 5.31rem;
+    height: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--body-small-medium-size);
+  }
+  .groupParent {
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    width: 32.38rem;
+    height: 4rem;
+  }
+
+
+
+  
+
+
+
+.div3 {
+    position: absolute;
+    top: 1.5rem;
+    left: 16.88rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+  .container {
+    position: absolute;
+    top: 18rem;
+    left: 12rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    width: 23rem;
+    height: 4rem;
+  }
+  .logousdtIcon {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .usdt {
+    letter-spacing: 0.01em;
+    line-height: 160%;
+  }
+  .div4,
+  .tether,
+  .usdt {
+    position: relative;
+    font-weight: 500;
+  }
+  .tether {
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    color: var(--neutral-grey-6);
+  }
+  .div4 {
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    color: var(--main-colors-black);
+  }
+  
+  .logousdtParent {
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    width: 30.63rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-sm);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--neutral-400);
+  }
+  .div5 {
+    position: absolute;
+    top: 1.5rem;
+    left: 14.38rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+
+  .frameDiv,
+  .groupContainer {
+    position: absolute;
+    top: 18rem;
+    left: 8.5rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    box-shadow: 0 0 12px rgba(82, 53, 232, 0.2);
+    width: 23rem;
+    height: 4rem;
+  }
+  .groupContainer {
+    top: 8rem;
+    left: 1rem;
+    width: 32.38rem;
+  }
+  .frameIcon3 {
+    position: absolute;
+    top: 1.5rem;
+    left: 19.88rem;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+  }
+
+  
+
+.span {
+    color: #daf727;
+  }
+  .tradeMoreThanContainer {
+    position: absolute;
+    top: 2rem;
+    left: 6.5rem;
+    letter-spacing: 0.01em;
+    line-height: 135%;
+    font-weight: 500;
+    display: inline-block;
+    width: 4rem;
+  }
+
+
+
+
+
+
+/* 
+
+
+  .createComplexWorkf {
+    position: relative;
+    letter-spacing: -0.6px;
+    line-height: 3.5rem;
+    display: inline-block;
+    width: 32.38rem;
+  }
+  .tagtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .divider3 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--solid-02-black-700);
+  }
+  .divider2,
+  .divider3,
+  .iconminus {
+    position: absolute;
+    right: 0;
+  }
+  .divider2 {
+    width: 100%;
+    top: calc(50% + 24.5px);
+    left: 0;
+    height: 0.06rem;
+  }
+  .iconminus {
+    top: calc(50% - 22.5px);
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  .howDoesNayzak {
+    position: absolute;
+    top: calc(50% - 25.5px);
+    left: 0;
+    line-height: 2.13rem;
+    font-weight: 600;
+  }
+  .item,
+  .moreThanJust {
+    align-self: stretch;
+    position: relative;
+  }
+  .item {
+    height: 3.19rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .moreThanJust {
+    font-size: var(--text-18px-regular-size);
+    line-height: 1.88rem;
+    color: var(--neutral-900);
+  }
+  .piecesdesktopitemOpendark {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .divider4,
+  .iconadd {
+    position: absolute;
+    right: 0;
+  }
+  .divider4 {
+    height: 1.2%;
+    width: 100%;
+    top: 98.8%;
+    bottom: 0;
+    left: 0;
+  }
+  .iconadd {
+    top: 2.19rem;
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  .howDoesNayzak1 {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    line-height: 2.13rem;
+    font-weight: 600;
+  }
+  .piecesdesktopitemCloseddar,
+  .piecesdesktopitemCloseddar3 {
+    align-self: stretch;
+    position: relative;
+    height: 5.19rem;
+  }
+  .piecesdesktopitemCloseddar3 {
+    display: none;
+    color: var(--main-colors-white);
+  }
+  .faq,
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .faq {
+    width: 32.38rem;
+    font-size: var(--text-22px-semibold-size);
+    font-family: var(--text-26px-regular);
+  }
+  .right {
+    gap: 1.06rem;
+  }
+  .frameChild {
+    position: absolute;
+    top: 3.75rem;
+    left: 0;
+    width: 16.34rem;
+    height: 21.19rem;
+  }
+  .div {
+    position: absolute;
+    top: 1.38rem;
+    left: 16.88rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+  .logoBitcoinIcon {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+  }
+  .bitcoin,
+  .btc {
+    position: absolute;
+    top: 1.19rem;
+    left: 7.38rem;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    font-weight: 500;
+    color: var(--neutral-grey-6);
+  }
+  .btc {
+    left: 4.5rem;
+    color: var(--neutral-400);
+  }
+  .frameItem,
+  .parent {
+    position: absolute;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    height: 4rem;
+  }
+  .parent {
+    top: 3rem;
+    left: 2.5rem;
+    width: 23rem;
+  }
+  .frameItem {
+    top: 0;
+    left: 0;
+    width: 25.44rem;
+  }
+  .div1 {
+    position: absolute;
+    top: 1.31rem;
+    left: 16.75rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+  .rectangleParent {
+    position: absolute;
+    top: 13rem;
+    left: 2.5rem;
+    width: 25.44rem;
+    height: 4rem;
+    display: none;
+    color: var(--neutral-dark-100);
+  }
+  .frameInner {
+    position: absolute;
+    width: 12.47%;
+    top: 1.15rem;
+    right: 22.76%;
+    left: 64.77%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 1.6rem;
+  }
+  .frameIcon {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .group {
+    position: absolute;
+    top: 1.31rem;
+    left: 13.81rem;
+    width: 5.31rem;
+    height: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--body-small-medium-size);
+  }
+  .groupParent {
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    width: 32.38rem;
+    height: 4rem;
+  }
+  .div3 {
+    position: absolute;
+    top: 1.5rem;
+    left: 16.88rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+  .container {
+    position: absolute;
+    top: 18rem;
+    left: 12rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    width: 23rem;
+    height: 4rem;
+  }
+  .logousdtIcon {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .usdt {
+    letter-spacing: 0.01em;
+    line-height: 160%;
+  }
+  .div4,
+  .tether,
+  .usdt {
+    position: relative;
+    font-weight: 500;
+  }
+  .tether {
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    color: var(--neutral-grey-6);
+  }
+  .div4 {
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    color: var(--main-colors-black);
+  }
+  .frameChild1 {
+    position: relative;
+    width: 4.78rem;
+    height: 1.6rem;
+  }
+  .logousdtParent {
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    width: 30.63rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-sm);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--neutral-400);
+  }
+  .div5 {
+    position: absolute;
+    top: 1.5rem;
+    left: 14.38rem;
+    font-size: var(--body-small-medium-size);
+    line-height: 145%;
+    font-weight: 500;
+  }
+  .frameDiv,
+  .groupContainer {
+    position: absolute;
+    top: 18rem;
+    left: 8.5rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    box-shadow: 0 0 12px rgba(82, 53, 232, 0.2);
+    width: 23rem;
+    height: 4rem;
+  }
+  .groupContainer {
+    top: 8rem;
+    left: 1rem;
+    width: 32.38rem;
+  }
+  .frameIcon3 {
+    position: absolute;
+    top: 1.5rem;
+    left: 19.88rem;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+  }
+  .parent2 {
+    position: absolute;
+    top: 13rem;
+    left: 11.5rem;
+    border-radius: var(--br-xs);
+    background-color: var(--main-colors-white);
+    box-shadow: 0 0 10px rgba(82, 53, 232, 0.2);
+    width: 25.44rem;
+    height: 4rem;
+  }
+  .frame1 {
+    position: absolute;
+    top: 0;
+    left: 2.25rem;
+    border-radius: var(--br-base);
+    background: radial-gradient(50% 50%at 50% 50%, rgba(255, 255, 255, 0), #fff),
+      #d1ddfa;
+    width: 28rem;
+    height: 30rem;
+    overflow: hidden;
+  }
+  .frameChild3,
+  .rectangleDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .rectangleDiv {
+    border-radius: var(--br-base);
+    background-color: var(--main-colors-black);
+    width: 16rem;
+    height: 10.25rem;
+  }
+  .frameChild3 {
+    width: 12rem;
+    height: 8.75rem;
+    opacity: 0.2;
+  }
+  .span {
+    color: #daf727;
+  }
+  .tradeMoreThanContainer {
+    position: absolute;
+    top: 2rem;
+    left: 6.5rem;
+    letter-spacing: 0.01em;
+    line-height: 135%;
+    font-weight: 500;
+    display: inline-block;
+    width: 4rem;
+  }
+  .frame2,
+  .frameChild4 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .frameChild4 {
+    height: 60.06%;
+    width: 29.17%;
+    top: 22.5%;
+    right: 58.33%;
+    bottom: 17.44%;
+    left: 12.5%;
+    max-width: 100%;
+    max-height: 100%;
+  } */

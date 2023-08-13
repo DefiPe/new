@@ -1,0 +1,113 @@
+.footer {
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .footer {
+    border-radius: var(--br-11xl);
+    width: 82.25rem;
+    height: 16rem;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-45xl) var(--padding-81xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-153xl);
+    font-size: var(--body-small-medium-size);
+    color: var(--neutral-900);
+    font-family: var(--text-26px-regular);
+  }
+
+  .logo,
+.logoCopyright,
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.logo,
+.logoCopyright {
+  flex-direction: column;
+}
+.logoCopyright {
+  gap: var(--gap-29xl);
+}
+
+.defipelogo211 {
+    position: relative;
+    width: 7.63rem;
+    height: 3.56rem;
+    object-fit: cover;
+  }
+  .akarIconsinstagramFill {
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .div17 {
+    position: relative;
+    line-height: 145%;
+  }
+
+  .listItems,
+.menu {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.listItems {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-medium-size);
+  color: var(--neutral-500);
+  font-family: var(--text-26px-regular);
+}
+.menu {
+  gap: var(--gap-base);
+}
+.listItems1,
+.listingMenu,
+.menu {
+  display: flex;
+  align-items: flex-start;
+}
+.listItems1 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--body-small-medium-size);
+  color: var(--neutral-500);
+  font-family: var(--text-26px-regular);
+}
+
+.listingMenu {
+    width: 43.19rem;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    font-size: var(--body-medium-regular-size);
+    font-family: var(--heading-01);
+  }
+
+
+  .about,
+.company {
+  position: relative;
+  display: inline-block;
+  width: 10rem;
+}
+.company {
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+.about {
+  line-height: 145%;
+}
+
+  
