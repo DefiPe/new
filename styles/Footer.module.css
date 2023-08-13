@@ -110,4 +110,28 @@
   line-height: 145%;
 }
 
-  
+@media only screen and (max-width: 700px) {
+  .listItems1,
+.listingMenu,
+.menu {
+  display: block;
+  align-items: flex-start;
+}
+
+.footer {
+  border-radius: var(--br-11xl);
+  width: 100vw;
+  height: 50rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-45xl) var(--padding-81xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-153xl);
+  font-size: var(--body-small-medium-size);
+  color: var(--neutral-900);
+  font-family: var(--text-26px-regular);
+  text-align: center;
+}
+
+}

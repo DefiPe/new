@@ -93,5 +93,80 @@
     width: 28.91rem;
     height: 33.19rem;
   }
+
+  @media only screen and (max-width: 700px) {
+    .brands,
+.content2 {
+  display: block;
+  box-sizing: border-box;
+}
+.content2 {
+  width: 15rem;
+  height: 5rem;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 rem;
+}
+
+.brands {
+  position: absolute;
+  top: 128.06rem;
+  left: 0;
+  background-color: var(--main-colors-white);
+  width: 90rem;
+  height: 44.44rem;
+  flex-direction: column;
+  padding: 0rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logosIcon {
+  position: relative;
+    height: auto;
+    width: 100vw;
+}
+
+.manageTrade {
+  letter-spacing: 0px;
+    line-height: 3.5rem;
+    width: 96vw;
+    font-size: 2.8rem;
+}
+
+.withOver3 {
+  font-size: var(--text-18px-regular-size);
+  line-height: 1.88rem;
+  font-family: var(--text-26px-regular);
+  color: var(--neutral-900);
+  width: 98vw;
+}
+
+.borderRadiuslightsolidpill {
+  position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.buttonsoliddefaultlargelig1 {
+  position: relative;
+    width: 100vw;
+    height: 4rem;
+    text-align: center;
+    font-size: var(--text-22px-semibold-size);
+    color: var(--main-colors-white);
+    margin-bottom: 1rem;
+}
+
+    
+  }
   
 
